@@ -11,7 +11,7 @@ spec:
   clusterServicePlanExternalName: $SERVICE_PLAN
   parameters:
     name: $DB_NAME
-    compartmentId: $COMPARTMENT_ID
+    compartmentId: "$COMPARTMENT_ID"
     dbName: $DB_NAME
     cpuCount: 1
     storageSizeTBs: 1
